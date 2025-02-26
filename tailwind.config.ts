@@ -6,11 +6,28 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        light: {
+          background: "#F7F7F7",
+          content: "#FFFFFF",
+          text: "#333333",
+          secondaryText: "#555555",
+          primary: "#5A8F7B",
+          secondary: "#728F81",
+          border: "#E0E0E0",
+        },
+        dark: {
+          background: "#1C1C1C",
+          content: "#2B2B2B",
+          text: "#DADADA",
+          secondaryText: "#A0A0A0",
+          primary: "#4C7A68",
+          secondary: "#607D75",
+          border: "#3A3A3A",
+        },
       },
     },
   },
