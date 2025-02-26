@@ -1,7 +1,7 @@
-export default function Home() {
+export default function About() {
   return (
     <div className="container">
-      <div>Home</div>
+      <div>About</div>
     </div>
   );
 }

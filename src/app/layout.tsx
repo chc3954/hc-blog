@@ -30,10 +30,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-      <body className="max-w-4xl min-w-[320px] mx-auto">
+      <body className="max-w-2xl min-w-[320px] min-h-screen mx-auto flex flex-col">
         <ThemeProvider>
           <Header />
-          {children}
+          <div className="flex-1">{children}</div>
           <Footer />
         </ThemeProvider>
       </body>
